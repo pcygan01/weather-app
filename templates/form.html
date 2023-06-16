@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Form</title>
+</head>
+<body>
+<h1> Proszę wpisać miasto, i na ile dni do przodu chcesz zobaczyć pogodę. (Tylko 5 dni do przodu jest za darmo)</h1>
+    <form action="/" method="POST">
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="city"><br>
+        <label for="day_from">Starting day:</label><br>
+        <input type="number" step="1" id="day_from" name="day_from"><br>
+        <label for="day_to">Ending day:</label><br>
+        <input type="number" step="1" id="day_to" name="day_to"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
